@@ -246,6 +246,8 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\FinvizQuote.cs" />
+    <Compile Include="Models\FinvizQuoteMap.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\YahooQuote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

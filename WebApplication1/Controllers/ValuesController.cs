@@ -18,6 +18,24 @@ namespace WebApplication1.Controllers
     {
         // GET api/values
         //public IEnumerable<string> Get()
+        [Route("api/finviz/{filename?}")]
+        [HttpGet]
+        public IEnumerable<FinvizQuote> GetFinviz(string filename = "")
+        {
+            IEnumerable<FinvizQuote> quotes = new List<FinvizQuote>();
+            var path = System.Web.Hosting.HostingEnvironment.MapPath(string.Format(@"~/App_Data/{0}.csv", filename));
+            using (TextReader tr = File.OpenText(path))
+            {
+                var csv = new CsvReader(tr);
+                csv.Configuration.RegisterClassMap<FinvizQuoteMap>();
+                quotes = csv.GetRecords<FinvizQuote>().ToList();
+
+            }//tr
+
+            return quotes;
+        }
+        // GET api/values
+        //public IEnumerable<string> Get()
         [Route("api/values/{tickers?}")]
         [HttpGet]
         public IEnumerable<YahooQuote> Get(string tickers="")
@@ -151,9 +169,7 @@ namespace WebApplication1.Controllers
             //string tickers = "WDAY, OAK, MAC";
             //Removes white space, converts to uppercase & splits symbols
             string[] symbols = Helpers.SplitTickers(tickers);
-
-            DataTable dt = new DataTable("test");
-
+            
             foreach (string symbol in symbols)
             {
                 //Constructs Yahoo's URL to request data from
