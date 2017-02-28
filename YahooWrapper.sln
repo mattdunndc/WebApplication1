@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YahooAPI", "WebApplication1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFtest", "EFtest\EFtest.csproj", "{FD587EEA-03B5-4AD0-87BD-F430B9C84488}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWebwithEF", "BasicWebwithEF\BasicWebwithEF.csproj", "{236865BC-9853-493C-93BD-57C58A02C82C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FD587EEA-03B5-4AD0-87BD-F430B9C84488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD587EEA-03B5-4AD0-87BD-F430B9C84488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD587EEA-03B5-4AD0-87BD-F430B9C84488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236865BC-9853-493C-93BD-57C58A02C82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236865BC-9853-493C-93BD-57C58A02C82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236865BC-9853-493C-93BD-57C58A02C82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236865BC-9853-493C-93BD-57C58A02C82C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

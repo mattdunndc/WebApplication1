@@ -9,7 +9,7 @@ namespace EFtest.Models
     public class StockQuote
     {
         public int ID { get; set; }
-        public int StockQuoteID { get; set; }
+        public int StockID { get; set; }
         public DateTime Date { get; set; }
         public decimal Open { get; set; }
         public decimal High { get; set; }
