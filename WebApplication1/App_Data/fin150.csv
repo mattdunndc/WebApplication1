@@ -1,0 +1,123 @@
+"No.","Ticker","Company","Sector","Industry","Country","Market Cap","P/E","Price","Change","Volume"
+1,"INT","World Fuel Services Corporation","Basic Materials","Oil & Gas Refining & Marketing","USA",2521.79,20.14,36.50,1.22%,736983
+2,"UNT","Unit Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",1144.05,,22.15,0.00%,672184
+3,"BAS","Basic Energy Services, Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",799.35,,31.91,3.10%,924879
+4,"RGLD","Royal Gold, Inc.","Basic Materials","Gold","USA",4101.19,390.99,62.95,2.44%,467642
+5,"BRS","Bristow Group Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",490.98,,13.99,1.23%,546660
+6,"PDCE","PDC Energy, Inc.","Basic Materials","Independent Oil & Gas","USA",4216.20,,63.66,-0.70%,1091577
+7,"SXC","SunCoke Energy, Inc.","Basic Materials","Nonmetallic Mineral Mining","USA",535.02,37.90,8.30,-0.36%,541834
+8,"REN","Resolute Energy Corporation","Basic Materials","Independent Oil & Gas","USA",793.56,,36.62,-1.43%,1033138
+9,"CRR","CARBO Ceramics Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",308.13,,11.04,-2.73%,1214945
+10,"XEC","Cimarex Energy Co.","Basic Materials","Independent Oil & Gas","USA",11500.93,,119.23,-1.39%,1193378
+11,"EGN","Energen Corporation","Basic Materials","Independent Oil & Gas","USA",4977.09,,50.74,-0.92%,1351854
+12,"XOG","Extraction Oil & Gas, LLC","Basic Materials","Independent Oil & Gas","USA",2773.35,,16.36,1.36%,1179934
+13,"MTDR","Matador Resources Company","Basic Materials","Independent Oil & Gas","USA",2351.82,,23.32,-0.81%,1330386
+14,"CRZO","Carrizo Oil & Gas, Inc.","Basic Materials","Independent Oil & Gas","USA",1812.25,,28.11,1.04%,2140978
+15,"HK","Halcon Resources Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",669.51,,7.35,2.08%,1595407
+16,"CXO","Concho Resources Inc.","Basic Materials","Oil & Gas Drilling & Exploration","USA",18927.71,,126.70,-0.82%,1867385
+17,"CRC","California Resources Corporation","Basic Materials","Independent Oil & Gas","USA",667.93,2.33,15.03,-4.27%,1501315
+18,"RSPP","RSP Permian, Inc.","Basic Materials","Oil & Gas Drilling & Exploration","USA",5591.38,,39.18,-0.08%,1632181
+19,"AEM","Agnico Eagle Mines Limited","Basic Materials","Gold","Canada",8994.37,58.27,41.20,3.36%,2382219
+20,"SLCA","U.S. Silica Holdings, Inc.","Basic Materials","Industrial Metals & Minerals","USA",3745.29,,46.56,0.78%,3202875
+21,"CVE","Cenovus Energy Inc.","Basic Materials","Oil & Gas Drilling & Exploration","Canada",10066.26,,12.08,1.26%,1753206
+22,"EQT","EQT Corporation","Basic Materials","Independent Oil & Gas","USA",9968.45,,57.08,-0.75%,3366340
+23,"PBF","PBF Energy Inc.","Basic Materials","Oil & Gas Refining & Marketing","USA",2387.73,12.74,22.08,1.05%,1500631
+24,"BHI","Baker Hughes Incorporated","Basic Materials","Oil & Gas Equipment & Services","USA",24413.70,,56.28,-1.95%,3277556
+25,"NFX","Newfield Exploration Company","Basic Materials","Independent Oil & Gas","USA",6878.13,,34.31,-0.75%,2629956
+26,"MUR","Murphy Oil Corporation","Basic Materials","Independent Oil & Gas","USA",4594.48,,26.57,-0.30%,2828681
+27,"APA","Apache Corporation","Basic Materials","Independent Oil & Gas","USA",19223.52,,50.23,-0.79%,6192404
+28,"STLD","Steel Dynamics, Inc.","Basic Materials","Steel & Iron","USA",8252.04,21.70,33.98,-0.21%,2106112
+29,"CNX","CONSOL Energy Inc.","Basic Materials","Independent Oil & Gas","USA",3521.95,,15.19,-1.04%,3392923
+30,"HES","Hess Corporation","Basic Materials","Independent Oil & Gas","USA",15313.34,,47.42,-1.98%,3384780
+31,"PTEN","Patterson-UTI Energy, Inc.","Basic Materials","Oil & Gas Drilling & Exploration","USA",4190.09,,25.24,0.20%,2714576
+32,"FMSA","Fairmount Santrol Holdings Inc.","Basic Materials","Industrial Metals & Minerals","USA",1627.11,,7.40,1.37%,10194166
+33,"NBL","Noble Energy, Inc.","Basic Materials","Independent Oil & Gas","USA",14909.03,,34.07,-1.62%,3347922
+34,"APC","Anadarko Petroleum Corporation","Basic Materials","Independent Oil & Gas","USA",34623.12,,61.89,-0.08%,4386423
+35,"GPOR","Gulfport Energy Corporation","Basic Materials","Independent Oil & Gas","USA",2711.14,,16.83,-1.41%,4823603
+36,"DVN","Devon Energy Corporation","Basic Materials","Independent Oil & Gas","USA",21387.72,,40.26,-1.25%,5036025
+37,"MDR","McDermott International, Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",1581.07,55.85,6.59,0.61%,3300394
+38,"EOG","EOG Resources, Inc.","Basic Materials","Independent Oil & Gas","USA",55202.85,,94.79,-0.95%,3792480
+39,"QEP","QEP Resources, Inc.","Basic Materials","Oil & Gas Pipelines","USA",3095.17,,12.91,-0.08%,3924566
+40,"CDE","Coeur Mining, Inc.","Basic Materials","Silver","USA",1327.08,23.05,7.56,3.14%,3020964
+41,"CPE","Callon Petroleum Company","Basic Materials","Independent Oil & Gas","USA",2300.12,,11.53,0.79%,5004076
+42,"SLB","Schlumberger Limited","Basic Materials","Oil & Gas Equipment & Services","USA",109717.47,,78.69,-0.01%,5632261
+43,"TECK","Teck Resources Limited","Basic Materials","Industrial Metals & Minerals","Canada",11459.03,14.88,19.87,1.79%,5810456
+44,"NBR","Nabors Industries Ltd.","Basic Materials","Oil & Gas Drilling & Exploration","Bermuda",3775.16,,13.44,1.59%,8649956
+45,"RRC","Range Resources Corporation","Basic Materials","Independent Oil & Gas","USA",6881.12,,27.53,-0.97%,5971890
+46,"WPX","WPX Energy, Inc.","Basic Materials","Independent Oil & Gas","USA",4843.08,,12.34,0.98%,6757978
+47,"OAS","Oasis Petroleum Inc.","Basic Materials","Independent Oil & Gas","USA",3106.32,,12.97,-0.84%,6385187
+48,"ESV","Ensco plc","Basic Materials","Oil & Gas Drilling & Exploration","United Kingdom",2596.30,2.76,8.74,1.98%,12845766
+49,"WLL","Whiting Petroleum Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",3376.72,,9.15,-1.72%,15017786
+50,"SWN","Southwestern Energy Company","Basic Materials","Independent Oil & Gas","USA",3714.72,,7.44,-0.27%,16304001
+51,"AKS","AK Steel Holding Corporation","Basic Materials","Steel & Iron","USA",2447.31,,7.68,-1.41%,11863734
+52,"FCX","Freeport-McMoRan Inc.","Basic Materials","Copper","USA",17922.65,,12.37,-0.24%,22449292
+53,"HAL","Halliburton Company","Basic Materials","Oil & Gas Equipment & Services","USA",44118.10,,50.91,0.04%,7663945
+54,"PBI","Pitney Bowes Inc.","Consumer Goods","Business Equipment","USA",2477.26,26.79,13.29,0.00%,1662041
+55,"LKQ","LKQ Corporation","Consumer Goods","Auto Parts","USA",9375.60,20.38,30.00,-1.45%,4782169
+56,"TVPT","Travelport Worldwide Limited","Consumer Goods","Recreational Goods, Other","United Kingdom",1501.91,89.70,12.11,1.94%,1934573
+57,"GIII","G-III Apparel Group, Ltd.","Consumer Goods","Textile - Apparel Clothing","USA",1170.69,14.33,24.43,1.50%,367988
+58,"ICON","Iconix Brand Group, Inc.","Consumer Goods","Textile - Apparel Footwear & Accessories","USA",415.89,,7.42,0.13%,517848
+59,"LTRPA","Liberty TripAdvisor Holdings, Inc.","Consumer Goods","Recreational Goods, Other","USA",1052.94,52.43,14.00,0.36%,1382399
+60,"BETR","Amplify Snack Brands, Inc.","Consumer Goods","Food - Major Diversified","USA",660.26,23.15,8.38,-2.56%,485677
+61,"KRG","Kite Realty Group Trust","Financial","REIT - Retail","USA",1699.35,1430.71,20.03,-1.52%,1496372
+62,"MHLD","Maiden Holdings, Ltd.","Financial","Property & Casualty Insurance","Bermuda",1268.16,81.11,14.60,-0.68%,521040
+63,"WRI","Weingarten Realty Investors","Financial","REIT - Retail","USA",4040.77,16.80,31.37,-0.57%,1564442
+64,"SNR","New Senior Investment Group Inc.","Financial","REIT - Diversified","USA",797.63,,9.58,-1.34%,786469
+65,"AHT","Ashford Hospitality Trust, Inc.","Financial","REIT - Hotel/Motel","USA",588.91,,6.08,-0.49%,553708
+66,"PEI","Pennsylvania Real Estate Investment Trust","Financial","REIT - Retail","USA",1026.89,,14.57,-1.42%,2432990
+67,"MBI","MBIA Inc.","Financial","Property & Casualty Insurance","USA",1240.51,,9.27,0.43%,1315042
+68,"GPT","Gramercy Property Trust, Inc.","Financial","REIT - Diversified","USA",3601.53,298.47,25.37,-0.39%,649204
+69,"FBP","First Bancorp","Financial","Foreign Regional Banks","USA",1317.91,13.78,5.94,-1.98%,1473588
+70,"SPG","Simon Property Group, Inc.","Financial","REIT - Retail","USA",54154.10,28.64,168.17,-0.68%,3101190
+71,"RPAI","Retail Properties of America, Inc.","Financial","REIT - Retail","USA",3346.58,21.06,13.94,-1.34%,2674560
+72,"WPG","Washington Prime Group Inc.","Financial","Property Management","USA",1498.32,27.04,8.03,-0.62%,2049023
+73,"CBL","CBL & Associates Properties, Inc.","Financial","REIT - Retail","USA",1584.28,12.39,9.28,0.22%,2224258
+74,"NAVI","Navient Corporation","Financial","Credit Services","USA",4208.04,6.84,14.52,0.41%,1870181
+75,"GGP","GGP Inc.","Financial","REIT - Retail","USA",20398.24,17.28,23.05,0.57%,5550356
+76,"KIM","Kimco Realty Corporation","Financial","REIT - Retail","USA",9189.21,37.25,21.64,0.23%,4907503
+77,"SRC","Spirit Realty Capital, Inc.","Financial","REIT - Diversified","USA",4937.62,105.31,10.11,-0.98%,4240191
+78,"HZNP","Horizon Pharma Public Limited Company","Healthcare","Drugs - Generic","Ireland",2485.27,,15.40,3.91%,2597564
+79,"ALXN","Alexion Pharmaceuticals, Inc.","Healthcare","Biotechnology","USA",28424.50,72.34,127.31,0.60%,1710651
+80,"ENDP","Endo International plc","Healthcare","Drug Manufacturers - Other","Ireland",2411.42,,10.82,2.75%,7491400
+81,"IPXL","Impax Laboratories, Inc.","Healthcare","Drug Manufacturers - Major","USA",667.38,,8.85,-2.21%,1925279
+82,"MNK","Mallinckrodt Public Limited Company","Healthcare","Drugs - Generic","United Kingdom",5188.91,28.75,49.39,-0.34%,1253888
+83,"ARAY","Accuray Incorporated","Healthcare","Medical Appliances & Equipment","USA",426.90,,5.00,-2.91%,798702
+84,"PTCT","PTC Therapeutics, Inc.","Healthcare","Biotechnology","USA",354.52,,10.64,3.00%,1347828
+85,"ALR","Alere Inc.","Healthcare","Medical Laboratories & Research","USA",3348.56,,38.00,-1.27%,1335517
+86,"TASR","TASER International, Inc.","Industrial Goods","Aerospace/Defense Products & Services","USA",1176.99,69.85,22.63,0.62%,803113
+87,"CSTM","Constellium N.V","Industrial Goods","Metal Fabrication","Netherlands",722.50,,6.15,-10.22%,3116255
+88,"MWA","Mueller Water Products, Inc.","Industrial Goods","Industrial Equipment & Components","USA",1971.54,31.53,12.17,0.16%,1546440
+89,"TGI","Triumph Group, Inc.","Industrial Goods","Aerospace/Defense Products & Services","USA",1234.30,,24.35,-2.21%,645802
+90,"RRD","R.R. Donnelley & Sons Company","Services","Business Services","USA",1016.52,,14.14,-2.82%,1543206
+91,"GCI","Gannett Co., Inc.","Services","Publishing - Newspapers","USA",899.60,17.90,7.91,-0.13%,888131
+92,"SCOR","comScore, Inc.","Services","Business Services","USA",1208.70,,21.14,-1.72%,375959
+93,"KTOS","Kratos Defense & Security Solutions, Inc.","Services","Security & Protection Services","USA",532.89,,7.02,-1.82%,2391910
+94,"KBR","KBR, Inc.","Services","Technical Services","USA",2105.96,,14.76,0.14%,2144700
+95,"FRED","Fred's, Inc.","Services","Discount, Variety Stores","USA",548.94,,15.16,3.34%,701772
+96,"ETSY","Etsy, Inc.","Services","Specialty Retail, Other","USA",1119.45,,9.72,0.83%,2654228
+97,"HA","Hawaiian Holdings, Inc.","Services","Regional Airlines","USA",2597.50,11.01,48.20,-0.82%,850436
+98,"BKS","Barnes & Noble, Inc.","Services","Specialty Retail, Other","USA",616.02,124.64,8.60,1.18%,861492
+99,"YRCW","YRC Worldwide Inc.","Services","Trucking","USA",387.66,18.11,11.61,-0.51%,352120
+100,"ILG","ILG, Inc.","Services","Resorts & Casinos","USA",2268.69,7.01,18.24,0.11%,869360
+101,"MGM","MGM Resorts International","Services","Resorts & Casinos","USA",14601.81,13.25,25.50,0.28%,6840750
+102,"SFM","Sprouts Farmers Market, Inc.","Services","Grocery Stores","USA",2426.53,21.64,17.85,0.39%,5547029
+103,"KR","The Kroger Co.","Services","Grocery Stores","USA",27046.13,13.85,28.82,-0.03%,8474626
+104,"AAL","American Airlines Group Inc.","Services","Major Airlines","USA",22589.80,9.19,43.90,1.32%,6840170
+105,"DAL","Delta Air Lines, Inc.","Services","Major Airlines","USA",35385.85,8.29,47.91,1.40%,6262359
+106,"FNSR","Finisar Corporation","Technology","Networking & Communication Devices","USA",3863.27,30.73,26.98,-22.69%,31302260
+107,"CIEN","Ciena Corporation","Technology","Communication Equipment","USA",3347.89,43.25,23.66,-0.13%,5027546
+108,"SHOR","ShoreTel, Inc.","Technology","Communication Equipment","USA",426.20,,6.30,0.80%,362714
+109,"TDS","Telephone and Data Systems, Inc.","Technology","Wireless Communications","USA",2831.24,67.22,26.08,1.48%,1179989
+110,"SNCR","Synchronoss Technologies, Inc.","Technology","Application Software","USA",1206.12,,26.30,0.31%,973058
+111,"SYNA","Synaptics Incorporated","Technology","Application Software","USA",1791.15,46.99,51.03,0.99%,472303
+112,"PI","Impinj, Inc.","Technology","Communication Equipment","USA",581.64,,27.95,-1.17%,605748
+113,"IPHI","Inphi Corporation","Technology","Semiconductor - Broad Line","USA",1845.44,73.34,43.71,-1.42%,1639144
+114,"NPTN","NeoPhotonics Corporation","Technology","Semiconductor - Broad Line","USA",409.32,,9.01,-6.83%,2788130
+115,"RUN","Sunrun Inc.","Technology","Semiconductor - Specialized","USA",544.00,5.80,5.06,-3.44%,1860265
+116,"ARRS","ARRIS International plc","Technology","Communication Equipment","USA",4768.90,295.12,25.38,1.24%,1875524
+117,"GRUB","GrubHub Inc.","Technology","Internet Information Providers","USA",2882.94,58.73,33.77,0.63%,2258392
+118,"PANW","Palo Alto Networks, Inc.","Technology","Networking & Communication Devices","USA",10588.64,,118.88,3.33%,4706733
+119,"ACIA","Acacia Communications, Inc.","Technology","Communication Equipment","USA",2022.40,21.85,50.56,-3.93%,1703210
+120,"CSRA","CSRA Inc.","Technology","Information Technology Services","USA",4629.05,24.48,28.42,0.14%,910167
+121,"IRDM","Iridium Communications Inc.","Technology","Diversified Communication Services","USA",819.99,9.81,8.45,-1.17%,992050
+122,"CPN","Calpine Corporation","Utilities","Electric Utilities","USA",3978.35,43.35,11.01,-0.63%,2602349

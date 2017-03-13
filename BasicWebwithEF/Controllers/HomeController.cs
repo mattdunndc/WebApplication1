@@ -15,7 +15,7 @@ namespace BasicWebwithEF.Controllers
         {
             StockQuote sq = new StockQuote
             {
-                StockQuoteID = 10,
+                StockID = 10,
                 Open = 13.50M,
                 Close = 14M
             };
