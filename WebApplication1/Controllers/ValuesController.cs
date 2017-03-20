@@ -19,21 +19,46 @@ namespace WebApplication1.Controllers
     //[Authorize]
     public class ValuesController : ApiController
     {
+        //
+        [Route("api/dailyscreen/{viewnumber?}")]
+        [HttpGet]
+        public IEnumerable<FinvizQuote> WriteDaily(string viewnumber = "")
+        {
+            var fname = "f000-" + (DateTime.Now.ToString(@"yyyy-MM-dd"));
+            var path = System.Web.Hosting.HostingEnvironment.MapPath(string.Format(@"~/App_Data/{0}.csv", fname));
+            if (!File.Exists(path))
+            {
+                var ret = Helpers.WriteDailyCSV("151");
+                var ret2 = Helpers.WriteDailyCSV("171");
+                var ret3 = Helpers.MergeFin();
+            }
+            
+            IEnumerable<FinvizQuote> quotes = new List<FinvizQuote>();
+            //var fname = "f000-" + (DateTime.Now.ToString(@"yyyy-MM-dd"));
+            //var path = System.Web.Hosting.HostingEnvironment.MapPath(string.Format(@"~/App_Data/{0}.csv", fname));
+            using (TextReader tr = File.OpenText(path))
+            {
+                var csv = new CsvReader(tr);
+                csv.Configuration.RegisterClassMap<FinvizQuoteMap>();
+                quotes = csv.GetRecords<FinvizQuote>().ToList(); //.OrderBy(p => p.Sector).ToList();
+            }//tr
+            return quotes;  //ret +ret2+ret3;
+        }
+       
         // GET api/values
         //
-        [Route("api/test")]
+        [Route("api/screen/{viewnumber?}")]
         [HttpGet]
-        public string GetFin()
+        public string GetFin(string viewnumber = "")
         {
             //string test = "yes";
-            var fname = "fin171";
+            var fname = "f" + viewnumber + "-" + (DateTime.Now.ToString(@"yyyy-MM-dd"));
             var path = System.Web.Hosting.HostingEnvironment.MapPath(string.Format(@"~/App_Data/{0}.csv", fname));
             string url = @"http://finviz.com/login_submit.ashx";
-            string urlexport =
-            //@"http://elite.finviz.com/export.ashx?v=111&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector";
-            //@"http://elite.finviz.com/export.ashx?v=151&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector";
-            @"http://elite.finviz.com/export.ashx?v=171&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector";
+            string urlexport = String.Format(@"http://elite.finviz.com/export.ashx?v={0}&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector",viewnumber);
+            //@"http://elite.finviz.com/export.ashx?v=171&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector";
             //@"http://elite.finviz.com/export.ashx?v=150&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector";
+            //  http://elite.finviz.com/screener.ashx?v=152&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=4&o=-dividendyield
             CookieContainer cc = new CookieContainer();
             HttpWebRequest http = WebRequest.Create(url) as HttpWebRequest;
             http.KeepAlive = true;
@@ -41,20 +66,25 @@ namespace WebApplication1.Controllers
             http.ContentType = "application/x-www-form-urlencoded";
             //
             Uri target = new Uri("http://finviz.com/");
-            string cols = HttpContext.Current.Server.UrlEncode("0,1,2,3,4,5,7,14,28,29,42,43,44,46,52,53,54,57,58,59,65,66,67");
+            string cols = HttpContext.Current.Server.UrlEncode("0,1,2,3,4,5,14,28,44,46,52,54,57,58,59,65,66,67,69");
             string f = HttpContext.Current.Server.UrlEncode("GA1.2.1218077229.1483581984");
             string g = HttpContext.Current.Server.UrlEncode("screener.ashx?v=151&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector");
+            string h = HttpContext.Current.Server.UrlEncode("1");
 
+            //http://elite.finviz.com/export.ashx?v=151&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector
             cc.Add(new Cookie("customTable", cols) { Domain = target.Host });
             //_ga=GA1.2.1218077229.1483581984
             cc.Add(new Cookie("screenerUrl", g) { Domain = target.Host });
             //screener.ashx?v=151&f=sh_avgvol_o500,sh_instown_o70,sh_price_o5,ta_rsi_os40,targetprice_a20&ft=3&o=sector
-            cc.Add(new Cookie("_ga", f) { Domain = target.Host });
-            //
+            //cc.Add(new Cookie("_ga", f) { Domain = target.Host });
+            //cc.Add(new Cookie("_gat", h) { Domain = target.Host });
+            cc.Add(new Cookie("domain", ".finviz.com") { Domain = target.Host });
+            //domain=.finviz.com
+            //_gat=1
             http.CookieContainer = cc;
 
-            string postData = "email=mattdunndc%40gmail.com&password=Be0nthew%40tch&remember=true";
-            byte[] dataBytes = UTF8Encoding.UTF8.GetBytes(postData);
+            string postData = @"email=mattdunndc%40gmail.com&password=Be0nthew%40tch&remember=true";
+            byte[] dataBytes = Encoding.UTF8.GetBytes(postData);
             http.ContentLength = dataBytes.Length;
             using (Stream postStream = http.GetRequestStream())
             {
@@ -84,8 +114,7 @@ namespace WebApplication1.Controllers
             {
                 var csv = new CsvReader(tr);
                 csv.Configuration.RegisterClassMap<FinvizQuoteMap>();
-                quotes = csv.GetRecords<FinvizQuote>().ToList();
-
+                quotes = csv.GetRecords<FinvizQuote>().ToList(); //.OrderBy(p => p.Sector).ToList();
             }//tr
 
             return quotes;

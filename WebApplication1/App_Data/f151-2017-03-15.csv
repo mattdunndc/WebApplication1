@@ -1,0 +1,76 @@
+"No.","Ticker","Company","Sector","Industry","Country","Market Cap","P/E","Price","Change","Volume"
+1,"PEIX","Pacific Ethanol, Inc.","Basic Materials","Oil & Gas Refining & Marketing","USA",289.44,3375.00,6.75,-3.57%,1427603
+2,"CRC","California Resources Corporation","Basic Materials","Independent Oil & Gas","USA",699.49,2.44,15.74,8.03%,1664326
+3,"FMSA","Fairmount Santrol Holdings Inc.","Basic Materials","Industrial Metals & Minerals","USA",1609.52,,7.32,5.17%,6303438
+4,"HSC","Harsco Corporation","Basic Materials","Industrial Metals & Minerals","USA",1002.54,,12.25,2.51%,627979
+5,"MDR","McDermott International, Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",1581.07,55.85,6.59,3.94%,3625651
+6,"WLL","Whiting Petroleum Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",3498.50,,9.48,6.04%,17982502
+7,"CRZO","Carrizo Oil & Gas, Inc.","Basic Materials","Independent Oil & Gas","USA",1866.41,,28.95,2.95%,1641315
+8,"ESV","Ensco plc","Basic Materials","Oil & Gas Drilling & Exploration","United Kingdom",2593.33,2.76,8.73,2.95%,12142890
+9,"BAS","Basic Energy Services, Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",829.15,,33.10,9.20%,647717
+10,"CPE","Callon Petroleum Company","Basic Materials","Independent Oil & Gas","USA",2367.95,,11.87,4.12%,6500724
+11,"QEP","QEP Resources, Inc.","Basic Materials","Oil & Gas Pipelines","USA",3239.02,,13.51,6.13%,4642370
+12,"BHI","Baker Hughes Incorporated","Basic Materials","Oil & Gas Equipment & Services","USA",25034.02,,57.71,2.20%,2293931
+13,"HK","Halcon Resources Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",678.62,,7.45,5.08%,975259
+14,"APA","Apache Corporation","Basic Materials","Independent Oil & Gas","USA",19545.00,,51.07,1.47%,3262452
+15,"UNT","Unit Corporation","Basic Materials","Oil & Gas Drilling & Exploration","USA",1135.78,,21.99,6.08%,801557
+16,"NBL","Noble Energy, Inc.","Basic Materials","Independent Oil & Gas","USA",15057.82,,34.41,2.14%,4360633
+17,"GPOR","Gulfport Energy Corporation","Basic Materials","Independent Oil & Gas","USA",2746.58,,17.05,2.59%,3854909
+18,"BRS","Bristow Group Inc.","Basic Materials","Oil & Gas Equipment & Services","USA",489.93,,13.96,1.23%,683742
+19,"INT","World Fuel Services Corporation","Basic Materials","Oil & Gas Refining & Marketing","USA",2560.48,20.45,37.06,1.28%,672292
+20,"NFX","Newfield Exploration Company","Basic Materials","Independent Oil & Gas","USA",7040.51,,35.12,2.12%,2855120
+21,"SLCA","U.S. Silica Holdings, Inc.","Basic Materials","Industrial Metals & Minerals","USA",3797.57,,47.21,7.22%,3236283
+22,"NBR","Nabors Industries Ltd.","Basic Materials","Oil & Gas Drilling & Exploration","Bermuda",3851.00,,13.71,4.74%,7812632
+23,"LTRPA","Liberty TripAdvisor Holdings, Inc.","Consumer Goods","Recreational Goods, Other","USA",1026.62,51.12,13.65,0.74%,446968
+24,"TVPT","Travelport Worldwide Limited","Consumer Goods","Recreational Goods, Other","United Kingdom",1516.79,90.59,12.23,0.91%,965816
+25,"LKQ","LKQ Corporation","Consumer Goods","Auto Parts","USA",9431.85,20.50,30.18,0.10%,2559862
+26,"ICON","Iconix Brand Group, Inc.","Consumer Goods","Textile - Apparel Footwear & Accessories","USA",405.80,,7.24,-1.09%,769770
+27,"BETR","Amplify Snack Brands, Inc.","Consumer Goods","Food - Major Diversified","USA",653.17,22.90,8.29,3.75%,780405
+28,"FBP","First Bancorp","Financial","Foreign Regional Banks","USA",1266.88,13.25,5.71,-0.35%,1685519
+29,"PEI","Pennsylvania Real Estate Investment Trust","Financial","REIT - Retail","USA",1074.82,,15.25,3.53%,1668685
+30,"MHLD","Maiden Holdings, Ltd.","Financial","Property & Casualty Insurance","Bermuda",1289.87,82.50,14.85,0.00%,596598
+31,"MBI","MBIA Inc.","Financial","Property & Casualty Insurance","USA",1235.16,,9.23,-0.22%,920390
+32,"CDR","Cedar Realty Trust, Inc.","Financial","REIT - Retail","USA",450.37,,5.20,2.97%,1206026
+33,"SPG","Simon Property Group, Inc.","Financial","REIT - Retail","USA",54743.40,28.96,170.00,1.66%,2657127
+34,"SRC","Spirit Realty Capital, Inc.","Financial","REIT - Diversified","USA",5025.53,107.19,10.29,2.39%,4603357
+35,"NAVI","Navient Corporation","Financial","Credit Services","USA",4248.61,6.90,14.66,1.38%,1742131
+36,"ALXN","Alexion Pharmaceuticals, Inc.","Healthcare","Biotechnology","USA",27265.73,69.39,122.12,0.43%,1909055
+37,"ENDP","Endo International plc","Healthcare","Drug Manufacturers - Other","Ireland",2349.02,,10.54,3.13%,12375457
+38,"ALR","Alere Inc.","Healthcare","Medical Laboratories & Research","USA",3280.71,,37.23,0.59%,1557514
+39,"MNK","Mallinckrodt Public Limited Company","Healthcare","Drugs - Generic","United Kingdom",5104.87,28.28,48.59,1.27%,1593932
+40,"PETX","Aratana Therapeutics, Inc.","Healthcare","Biotechnology","USA",199.25,,5.41,1.69%,1346450
+41,"IPXL","Impax Laboratories, Inc.","Healthcare","Drug Manufacturers - Major","USA",697.54,,9.25,3.93%,2045735
+42,"PTCT","PTC Therapeutics, Inc.","Healthcare","Biotechnology","USA",363.19,,10.90,4.91%,1421986
+43,"ESRX","Express Scripts Holding Company","Healthcare","Health Care Plans","USA",40223.93,12.15,66.06,-1.17%,6937902
+44,"MNTA","Momenta Pharmaceuticals, Inc.","Healthcare","Drugs - Generic","USA",1009.06,,13.80,0.36%,802040
+45,"ARAY","Accuray Incorporated","Healthcare","Medical Appliances & Equipment","USA",426.90,,5.00,0.00%,943341
+46,"TASR","TASER International, Inc.","Industrial Goods","Aerospace/Defense Products & Services","USA",1196.75,71.02,23.01,0.52%,818698
+47,"CSTM","Constellium N.V","Industrial Goods","Metal Fabrication","Netherlands",699.01,,5.95,0.00%,2851814
+48,"MWA","Mueller Water Products, Inc.","Industrial Goods","Industrial Equipment & Components","USA",1969.92,31.50,12.16,-1.06%,2543653
+49,"TGI","Triumph Group, Inc.","Industrial Goods","Aerospace/Defense Products & Services","USA",1249.51,,24.65,2.28%,775526
+50,"P","Pandora Media, Inc.","Services","Broadcasting - Radio","USA",2610.00,,11.60,0.09%,5407191
+51,"KBR","KBR, Inc.","Services","Technical Services","USA",2046.03,,14.34,1.34%,3832583
+52,"GCI","Gannett Co., Inc.","Services","Publishing - Newspapers","USA",920.08,18.30,8.09,1.13%,1044978
+53,"UAL","United Continental Holdings, Inc.","Services","Major Airlines","USA",21506.95,9.10,68.17,2.43%,11319279
+54,"YRCW","YRC Worldwide Inc.","Services","Trucking","USA",392.00,18.32,11.74,2.44%,523812
+55,"ETSY","Etsy, Inc.","Services","Specialty Retail, Other","USA",1178.19,,10.23,1.89%,1732399
+56,"BKS","Barnes & Noble, Inc.","Services","Specialty Retail, Other","USA",616.02,124.64,8.60,-0.58%,656906
+57,"AAL","American Airlines Group Inc.","Services","Major Airlines","USA",21658.42,8.81,42.09,2.14%,13971653
+58,"SCOR","comScore, Inc.","Services","Business Services","USA",1263.59,,22.10,0.23%,152613
+59,"GNC","GNC Holdings, Inc.","Services","Drug Stores","USA",475.44,,6.97,0.29%,3322078
+60,"KR","The Kroger Co.","Services","Grocery Stores","USA",27064.90,13.86,28.84,0.49%,9013115
+61,"RRD","R.R. Donnelley & Sons Company","Services","Business Services","USA",988.49,,13.75,0.66%,1121040
+62,"JCP","J. C. Penney Company, Inc.","Services","Department Stores","USA",1850.66,,6.06,0.83%,12563483
+63,"DAL","Delta Air Lines, Inc.","Services","Major Airlines","USA",34854.06,8.17,47.19,1.97%,17908010
+64,"SHOR","ShoreTel, Inc.","Technology","Communication Equipment","USA",412.66,,6.10,1.67%,250632
+65,"TDS","Telephone and Data Systems, Inc.","Technology","Wireless Communications","USA",2842.10,67.47,26.18,1.55%,716647
+66,"PANW","Palo Alto Networks, Inc.","Technology","Networking & Communication Devices","USA",10416.74,,116.95,0.27%,1274659
+67,"CIEN","Ciena Corporation","Technology","Communication Equipment","USA",3359.21,43.40,23.74,3.89%,5485828
+68,"SNCR","Synchronoss Technologies, Inc.","Technology","Application Software","USA",1187.32,,25.89,1.05%,998397
+69,"YELP","Yelp Inc.","Technology","Internet Information Providers","USA",2708.20,,34.16,1.15%,2289370
+70,"IIVI","II-VI Incorporated","Technology","Scientific & Technical Instruments","USA",2114.90,30.84,33.65,1.97%,1232869
+71,"RUBI","the Rubicon Project, Inc.","Technology","Application Software","USA",292.76,15.38,6.06,-27.77%,6967019
+72,"RUN","Sunrun Inc.","Technology","Semiconductor - Specialized","USA",537.55,5.73,5.00,2.25%,891554
+73,"SYNA","Synaptics Incorporated","Technology","Application Software","USA",1739.20,45.63,49.55,0.24%,525178
+74,"IPHI","Inphi Corporation","Technology","Semiconductor - Broad Line","USA",1842.06,73.20,43.63,4.15%,1511715
+75,"FNSR","Finisar Corporation","Technology","Networking & Communication Devices","USA",3805.99,30.27,26.58,3.46%,8726775

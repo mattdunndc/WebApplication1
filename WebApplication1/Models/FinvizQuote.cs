@@ -12,6 +12,10 @@ namespace WebApplication1.Models
         public string Ticker { get; set; }
         public string Company { get; set; }
         public string Sector { get; set; }
+        public string Country { get; set; }
+        public decimal Price { get; set; }
+        public decimal? PE { get; set; }
+        public decimal? ATR { get; set; }
         //public DateTime Date { get; set; }
         //public decimal Open { get; set; }
         //public decimal High { get; set; }
